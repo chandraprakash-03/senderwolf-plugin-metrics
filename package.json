@@ -1,0 +1,27 @@
+{
+    "name": "@senderwolf/plugin-metrics",
+    "version": "1.0.0",
+    "description": "Auto-instruments the SMTPConnectionPool and exports statistics (active connections, pooled bytes, failed deliveries) for senderwolf",
+    "main": "index.js",
+    "types": "types/index.d.ts",
+    "type": "module",
+    "scripts": {},
+    "author": "Chandraprakash",
+    "license": "MIT",
+    "dependencies": {},
+    "peerDependencies": {
+        "senderwolf": "^4.0.0"
+    },
+    "keywords": [
+        "senderwolf",
+        "plugin",
+        "metrics",
+        "prometheus",
+        "smtp",
+        "monitoring"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chandraprakash-03/senderwolf.git"
+    }
+}
