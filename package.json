@@ -1,6 +1,9 @@
 {
-    "name": "@senderwolf/plugin-metrics",
+    "name": "senderwolf-metrics",
     "version": "1.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
     "description": "Auto-instruments the SMTPConnectionPool and exports statistics (active connections, pooled bytes, failed deliveries) for senderwolf",
     "main": "index.js",
     "types": "types/index.d.ts",
